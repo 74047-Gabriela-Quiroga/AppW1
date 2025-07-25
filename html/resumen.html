@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resumen del Viaje</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Resumen del Viaje</h1>
+  </header>
+
+  <main class="resumen-main">
+    <section id="resumen-container" class="resumen-container"></section>
+
+    <section class="formulario-container">
+      <h2>Datos del Viajero</h2>
+      <form id="form-viajero">
+        <label>
+          Nombre:
+          <input type="text" name="nombre" required />
+        </label>
+        <label>
+          Apellido:
+          <input type="text" name="apellido" required />
+        </label>
+        <label>
+          Email:
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Teléfono:
+          <input type="tel" name="telefono" required />
+        </label>
+        <div class="form-buttons">
+          <button type="submit">Enviar</button>
+          <button type="button" id="cancelar">Cancelar viaje</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/resumen.js"></script>
+</body>
+</html>
